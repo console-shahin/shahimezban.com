@@ -4,7 +4,7 @@ fonts
 --------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
 
 /*------ Variabales------ */
 :root{
@@ -352,6 +352,7 @@ p{
 
 .home-text p{
     margin: 0 0 30px;
+    font-family: 'Baloo Da 2', cursive;
 }
 
 /* ------------- About Section ------------- */
@@ -373,6 +374,7 @@ p{
 
 .about-text p{
     margin: 15px 0;
+    font-family: 'Baloo Da 2', cursive;
 }
 
 .about-img img{
@@ -404,8 +406,8 @@ p{
     max-width: 250px;
     text-align: center;
     transform: translate(-50%, -50%);
-    font-size: 30px;
-    font-family: var(--cursive-font);
+    font-size: 20px;
+    font-family: 'Baloo Da 2', cursive;
     color: var(--dark-light);
     font-weight: bold;
 }
