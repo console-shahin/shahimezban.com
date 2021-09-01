@@ -427,6 +427,7 @@ p{
     width: 100%;
     text-align: center;
     height: 30px;
+    margin-bottom: 30px;
 }
 
 .menu-tabs-item{
@@ -559,4 +560,52 @@ p{
 .testi-item .ratings i{
     font-size: 16px;
     color: var(--main-color);
+}
+
+/* -----------Footer Section---------- */
+.footer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark);
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footer-section a{
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+.footer-section a:hover {
+    color: #64FFDA;
+}
+
+
+/*-------------- Responsive -------------- */
+@media(max-width: 991px){
+    .testi-item{
+        width: calc(50% - 30px);
+    }
+}
+@media(max-width: 767px){
+    .home-text h1{
+        font-size: 33px;
+        line-height: 65px
+    }
+    .menu-item,
+    .about-text,
+    .about-img{
+        width: 100%;
+    }
+    .about-img{
+        margin-top: 40px;
+    }
+    .testi-item{
+        width: calc(100% - 30px);
+    }
+}
+@media(max-width: 675px){
+    .testimonials-section{
+        padding: 0px 0px;
+    }
 }
