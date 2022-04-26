@@ -45,7 +45,7 @@ body::-webkit-scrollbar{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: var(--main-color);
+    background: var(--main-color);f
     border-radius: 10px;
 }
 
@@ -79,6 +79,7 @@ h3, h4, h5, h6{
 
 p{
     font-size: 16px;
+    color: var(--white-light) !important;
 }
 
 /* Buttons */
